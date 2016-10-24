@@ -6,6 +6,9 @@
 	<title>移动Web页面布局实践</title>
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/task11.css">
+	<script src="javascript/jquery-3.1.1.min.js">
+	</script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -16,7 +19,40 @@
 			</div>
 			<div class="picflow">
 			<!--picflow-->
-			</div>	
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+			   	<!-- 轮播（Carousel）指标 -->
+			   	<ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			      <li data-target="#myCarousel" data-slide-to="3"></li>
+			      <li data-target="#myCarousel" data-slide-to="4"></li>
+			      <li data-target="#myCarousel" data-slide-to="5"></li>
+			      <li data-target="#myCarousel" data-slide-to="6"></li>
+			   	</ol>  
+			   	<!-- 轮播（Carousel）项目 -->
+			   	<div class="carousel-inner">
+			      	<div class="item active">
+			         	<img src="image/fpic01.jpg" alt="First slide">
+			      	</div>
+			      	<div class="item">
+			         	<img src="image/fpic02.jpg" alt="Second slide">
+			      	</div>
+			      	<div class="item">
+			         	<img src="image/fpic03.jpg" alt="Third slide">
+			      	</div>
+			      	<div class="item">
+			         	<img src="image/fpic04.jpg" alt="Second slide">
+			      	</div>
+			      	<div class="item">
+			         	<img src="image/fpic05.jpg" alt="Third slide">
+			      	</div>
+			      	<div class="item">
+			         	<img src="image/fpic06.jpg" alt="Second slide">
+			      	</div>
+				</div>
+			   	</div>
+		   	</div>	
 			<div class="nav a">
 				<div class="navbar">
 					<img src="image/na1.png">

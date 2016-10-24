@@ -22,10 +22,8 @@ header{
 	text-align: center;
 }
 .picflow{
-	height: 150px;
-	background-image: url(../image/sunshineshop.png);
+	height: 120px;
 	margin-top: 40px;
-	margin-bottom: 10px;
 }
 header .navbar{
 	width: 20%;
