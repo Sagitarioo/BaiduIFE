@@ -2,82 +2,319 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>移动Web页面布局实践</title>
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/task11.css">
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<header>
-			<div class="top">
-				<div class="back">
-					<a href="#">返回</a>
-					<h1>这是标题</h1>
+			<div class="search">
+				<img src="image/logomin.png">
+				<input type="text" name="sou" placeholder="寻找宝贝店铺">
+			</div>
+			<div class="picflow">
+			<!--picflow-->
+			</div>	
+			<div class="nav a">
+				<div class="navbar">
+					<img src="image/na1.png">
+					<span>天猫</span>
 				</div>
-				<div class="nav">
-					<li>导航</li>
-					<li>导航</li>
-					<li>导航</li>
-					<li>导航</li>
-					<li>导航</li>
+				<div class="navbar">
+					<img src="image/na2.png">
+					<span>聚划算</span>
 				</div>
+				<div class="navbar">
+					<img src="image/na3.png">
+					<span>天猫国际</span>
+				</div>
+				<div class="navbar">
+					<img src="image/na4.png">
+					<span>外卖</span>
+				</div>
+				<div class="navbar">
+					<img src="image/na5.png">
+					<span>天猫超市</span>
+				</div>
+			</div>	
+			<div class="nav b">
+				<div class="navbar">
+					<img src="image/na6.png">
+					<span>充值中心</span>
+				</div>
+				<div class="navbar">
+					<img src="image/na7.png">
+					<span>阿里旅行</span>
+				</div>
+				<div class="navbar">
+					<img src="image/na8.png">
+					<span>领金币</span>
+				</div>
+				<div class="navbar">
+					<img src="image/na9.png">
+					<span>到家</span>
+				</div>
+				<div class="navbar">
+					<img src="image/na10.png">
+					<span>分类</span>
+				</div>	
 			</div>
 		</header>
-		<div class="section01">
-			<div class="img01">
-			
+		<div class="section section01">
+			<span class="span1">淘宝头条</span><span class="span2">最新</span><span>双十一红包来袭</span>
+		</div>
+		<div class="section section02">
+			<div class="left">
+				<span>淘抢购</span>
+			</div>
+			<div class="right">
+				<div class="righttop">
+					<span>有好货</span>
+				</div>
+				<div class="rightb">
+					<div class="b1">
+						<span>爱逛街</span>
+					</div>
+					<div class="b2">
+						<span>必买清单</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="section section03">
+			<div class="title">
+				<span>超实惠</span>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>非常大牌</span>
+				</div>
+				<div class="lf2">
+					<span>全球精选</span>
+				</div>
+				<div class="lf2">
+					<span>量贩团</span>
+				</div>
+				<div class="lf2">
+					<span>聚名品</span>
+				</div>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>天天特价</span>
+				</div>
+				<div class="lf2">
+					<span>品牌店庆</span>
+				</div>
+				<div class="lf2">
+					<span>俪人购</span>
+				</div>
+				<div class="lf2">
+					<span>品牌清仓</span>
+				</div>
 			</div>
 		</div>
-		<div class="section02">
-			<div class="img01">
-				<div class="img">
-					<img src="image/icon01.jpg">
+		<div class="section section04">
+			<div class="title">
+				<span>天猫必逛</span>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>全球时尚</span>
 				</div>
-				<div class="imgtext">
-					<p>标签</p>
+				<div class="lf1">
+					<span>品牌街</span>
 				</div>
 			</div>
-			<div class="img01">
-				<div class="img">
-					<img src="image/icon01.jpg">
+			<div class="galeryt">
+				<div class="lf1">
+					<span>天猫焕新</span>
 				</div>
-				<div class="imgtext">
-					<p>标签</p>
+				<div class="lf1">
+					<span>天天搞机</span>
 				</div>
-			</div>
-			<div class="img01">
-				<div class="img">
-					<img src="image/icon01.jpg">
+				<div class="lf1">
+					<span>喵生鲜</span>
 				</div>
-				<div class="imgtext">
-					<p>标签</p>
-				</div>
-			</div>
-			<div class="img01">
-				<div class="img">
-					<img src="image/icon01.jpg">
-				</div>
-				<div class="imgtext">
-					<p>标签</p>
-				</div>
-			</div>
-			<div class="img01">
-				<div class="img">
-					<img src="image/icon01.jpg">
-				</div>
-				<div class="imgtext">
-					<p>标签</p>
+				<div class="lf1">
+					<span>苏宁易购</span>
 				</div>
 			</div>
 		</div>
-		<div class="section03">
-			
+		<div class="section section05">
+			<div class="title">
+				<span>特色好货</span>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>全球购</span>
+				</div>
+				<div class="lf2">
+					<span>淘宝汇吃</span>
+				</div>
+				<div class="lf2">
+					<span>极有家</span>
+				</div>
+				<div class="lf2">
+					<span>拍卖</span>
+				</div>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>中国制造</span>
+				</div>
+				<div class="lf2">
+					<span>医药健康</span>
+				</div>
+				<div class="lf2">
+					<span>淘宝众筹</span>
+				</div>
+				<div class="lf2">
+					<span>每日新品</span>
+				</div>
+			</div>
 		</div>
-		<div class="section04">
-			
+		<div class="section section06">
+			<div class="tit">
+				<div class="threepic">
+					
+				</div>
+				<div>
+					<span>更多服务</span>
+				</div>
+			</div>	
+			<div class="adv">
+				<!--adv-->
+			</div>
 		</div>
-		<div class="section05">
-			
+		<div class="section section07">
+			<div class="title">
+				<span class="sp1">热门市场</span>
+				<span class="sp2">更多</span>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>iFashion</span>
+				</div>
+				<div class="lf1">
+					<span>潮玩城</span>
+				</div>
+				<div class="lf1">
+					<span>亲宝贝</span>
+				</div>
+				<div class="lf1">
+					<span>精选市场</span>
+				</div>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>美裙控</span>
+				</div>
+				<div class="lf1">
+					<span>青春少女风</span>
+				</div>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>爱动漫</span>
+				</div>
+				<div class="lf1">
+					<span>玩具百宝箱</span>
+				</div>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>商场同款</span>
+				</div>
+				<div class="lf1">
+					<span>性感密码</span>
+				</div>
+			</div>
 		</div>
+		<div class="section section08">
+			<!--adv02-->
+		</div>
+		<div class="section section09">
+			<div class="title">
+				<span class="sp1">每日好店</span>
+				<span class="sp2">更新50个好店</span>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<span>商品1</span>
+				</div>
+				<div class="lf2">
+					<div class="lf21">
+						<span>商品2</span>
+					</div>
+					<div class="lf21">
+						<span>商品3</span>
+					</div>
+				</div>
+				<div class="lf1">
+					<span>商品1</span>
+				</div>
+				<div class="lf2">
+					<div class="lf21">
+						<span>商品2</span>
+					</div>
+					<div class="lf21">
+						<span>商品3</span>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="section section10">
+			<div class="title">
+				<h3>猜你喜欢</h3>
+				<span>实时推荐最适合你的宝贝</span>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<div class="pic">
+						<!--pic-->
+					</div>
+					<span>[为你推荐] iphone7 plus</span>
+					<p>￥6388</p>
+				</div>
+				<div class="lf1">
+					<div class="pic">
+						<!--pic-->
+					</div>
+					<span>[为你推荐] iphone7 plus</span>
+					<p>￥6388</p>
+				</div>
+			</div>
+			<div class="galeryt">
+				<div class="lf1">
+					<div class="pic">
+						<!--pic-->
+					</div>
+					<span>[为你推荐] iphone7 plus</span>
+					<p>￥6388</p>
+				</div>
+				<div class="lf1">
+					<div class="pic">
+						<!--pic-->
+					</div>
+					<span>[为你推荐] iphone7 plus</span>
+					<p>￥6388</p>
+				</div>
+			</div>	
+		</div>
+		<footer>
+			<div class="btn">
+				<button type="button">登陆</button>
+				<button type="button">注册</button>
+				<button type="button">电脑版</button>
+				<button type="button">用户反馈</button>
+			</div>
+			<div class="title">
+				<span>2016 by.Sagitario 仅供测试</span>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

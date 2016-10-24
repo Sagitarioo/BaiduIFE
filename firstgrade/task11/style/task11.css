@@ -1,0 +1,269 @@
+body{
+	font-size: 16px;
+	background-color: #EEEEEE;
+}
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+header{
+	background-color: #fff;
+}
+.search{
+	top: 0px;
+	display: flex;
+	position: fixed;
+}
+.search img{
+	flex:40px;
+}
+.search input{
+	width: 380px;
+	text-align: center;
+}
+.picflow{
+	height: 150px;
+	background-image: url(../image/sunshineshop.png);
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+header .navbar{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-bottom: 6px;
+}
+header .nav img{
+	width: 80px;
+}
+.section{
+	background-color: #fff;
+	margin-top: 7px;
+}
+.section01{
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	margin-top: 0px;
+}
+.section01 span{
+	font-size: 20px;
+	margin-right: 20px;
+}
+.section01 .span1{
+	font-family: "Microsoft YaHei";
+	color: red;
+	margin-left: 10px;
+}
+.section01 .span2{
+	color: #E35861;
+}
+
+.section02{
+	height: 200px;
+	display: flex;
+}
+.section02 span{
+	margin-left: 7px;
+}
+.section02 .left{
+	flex: 1;
+	border: 1px solid #ccc;
+}
+.section02 .right{
+	flex: 2;
+}
+.section02 .righttop{
+	flex: 1;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+.section02 .rightb{
+	display: flex;
+}
+.section02 .rightb .b1{
+	flex: 1;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+.section02 .rightb .b2{
+	flex: 1;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+
+.section03{
+	height: 230px;
+}
+.section03 .title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #FA3301;
+	text-align: center;
+}
+.section03 .galeryt{
+	display: flex;
+}
+.section03 .galeryt span{
+	margin-left: 7px;
+}
+.section03 .galeryt .lf1{
+	flex: 2;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+.section03 .galeryt .lf2{
+	flex: 1;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+
+.section04{
+	height: 230px;
+}
+.section04 .title{
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #D10909;
+}
+.section04 .galeryt{
+	display: flex;
+	height: 100px;
+}
+.section04 .galeryt .lf1{
+	flex: 1;
+	border: 1px solid #ccc;
+}
+.section04 .galeryt span{
+	margin-left: 7px;
+}
+
+.section05{
+	height: 230px;
+}
+.section05 .title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #FA3301;
+	text-align: center;
+}
+.section05 .galeryt{
+	display: flex;
+}
+.section05 .galeryt span{
+	margin-left: 7px;
+}
+.section05 .galeryt .lf1{
+	flex: 2;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+.section05 .galeryt .lf2{
+	flex: 1;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+.section06 .tit{
+	height: 30px;
+	line-height: 30px;
+}
+.section06 span{
+	float: right;
+}
+.section06 .adv{
+	height: 100px;
+	background-image: url(../image/adv01.png);
+	background-size:cover;
+}
+.section07{
+
+}
+.section07 .title{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.section07 .title .sp1{
+	color: #D10909;
+}
+.section07 .title .sp2{
+	float: right;
+}
+.section07 .galeryt{
+	display: flex;
+	height: 100px;
+}
+.section07 .galeryt .lf1{
+	flex:1;
+	border: 1px solid #ccc;
+}
+.section07 .galeryt span{
+	margin-left: 7px;
+}
+.section08{
+	height: 100px;
+	background-image: url(../image/adv02.jpg);
+	background-size:cover;
+}
+.section09 .title{
+	height: 30px;
+	line-height: 30px;
+}
+.section09 .title .sp2{
+	float: right;
+}
+.section09 .galeryt{
+	height: 150px;
+	display: flex;
+}
+.section09 .galeryt span{
+	margin-left: 7px;
+}
+.section09 .galeryt .lf1{
+	flex: 2;
+	border: 1px solid #ccc;
+}
+.section09 .galeryt .lf2{
+	flex: 1;
+	border: 1px solid #ccc;
+}
+.section09 .galeryt .lf2 .lf21{
+	height: 75px;
+	border: 1px solid #ccc;
+}
+.section10 .title{
+	text-align: center;
+}
+.section10 .galeryt{
+	display: flex;
+}
+.section10 .galeryt .lf1{
+	flex: 1;
+	border: 1px solid #ccc;
+}
+.section10 .galeryt .lf1 p{
+	color: #FF5305;
+	font-size: 23px;
+}
+.section10 .galeryt .lf1 .pic{
+	height: 200px;
+	background-image: url(../image/pic01.jpg);
+	background-size:cover;
+}
+footer {
+	background-color: #4E525E;
+	height: 100px;
+}
+footer .btn button{
+	margin-left: 20px;
+	font-size: 18px;
+}
+footer .title{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
