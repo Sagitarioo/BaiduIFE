@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>淘宝网</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>移动Web页面布局实践</title>
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="javascript/jquery-3.1.1.min.js"></script>
+   	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fulid">
+		<header>
+			<div class="navt">
+				<div class="sp">
+				<span>Sagitario</span><span>消息</span><span>手机逛淘宝</span></div>
+				<ul class="nav nav-tabs">
+				    <li class="dropdown">
+      				<a class="dropdown-toggle" data-toggle="dropdown" href="#">网站导航<span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+				        <li><a href="#">aaa</a></li>
+				        <li><a href="#">bbb</a></li>
+				    </ul>
+			    	</li>
+				  	
+					<li class="dropdown">
+      				<a class="dropdown-toggle" data-toggle="dropdown" href="#">联系客服<span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+				        <li><a href="#">消费者客服</a></li>
+				        <li><a href="#">卖家客服</a></li>
+				    </ul>
+			    	</li>
+
+				    <li class="dropdown">
+      				<a class="dropdown-toggle" data-toggle="dropdown" href="#">卖家中心<span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+				        <li><a href="#">免费开店</a></li>
+				        <li><a href="#">已卖出的宝贝</a></li>
+				        <li><a href="#">出售中的宝贝</a></li>
+				        <li><a href="#">卖家服务市场</a></li>
+				        <li><a href="#">卖家培训中心</a></li>
+				        <li><a href="#">体检中心</a></li>
+				    </ul>
+			    	</li>
+					<li><a href="#">商品分类</a></li>
+				    <li class="dropdown">
+      				<a class="dropdown-toggle" data-toggle="dropdown" href="#">收藏夹<span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+				        <li><a href="#">收藏的宝贝</a></li>
+				        <li><a href="#">收藏的店铺</a></li>
+				    </ul>
+			    	</li>
+					
+					<li><a href="#">购物车</a></li>
+				    
+				    <li class="dropdown">
+      				<a class="dropdown-toggle" data-toggle="dropdown" href="#">我的淘宝<span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+				        <li><a href="#">已买到的宝贝</a></li>
+				        <li><a href="#">我的足迹</a></li>
+				    </ul>
+			    	</li>
+			    </ul>
+			
+			</div>
+		</header>
+		<div class="section01">
+			<div class="lf01">
+				<img src="image/tblogo.gif">
+			</div>
+			<div class="mid01">
+				<div class="tex01"><span>宝贝</span><span>天猫</span><span>店铺</span></div>
+				<input type="text" name="search">
+				<div class="spsou"><span>搜索</span></div>
+				<div class="spssou"><span>高级搜索</span></div>
+				<div class="blsou">
+					<span>预售开抢 </span>
+					<span>新魔盒首发</span><span>圣元优博</span><span>老人手机</span><span>婴儿服</span><span>老人机</span><span>羽绒服</span><span>内衣</span><span>平板电脑</span><span>男童裤子</span><span>祛痘面膜</span><span>室内书架</span><span>更多➤</span>
+				</div>
+			</div>
+			<div class="rt01">
+				<img src="image/ewm.jpg">
+			</div>
+			<div class="se01b">
+				<ul>
+					<li>天猫</li><li>聚划算</li><li>天猫超市</li> | <li>淘抢购</li><li>电器城</li><li>司法拍卖</li><li>中国制造</li><li>特色中国</li><li>阿里旅行</li><li>智能生活</li><li>苏宁易购</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section02">
+			<div class="tp02">
+				<span>主题市场</span>
+			</div>
+			<div class="tabmenu">
+				<ul>
+					<li>女装/男装/内衣</li>
+					<li>鞋靴/箱包/配件</li>
+					<li>童装玩具/孕产/用</li>
+					<li>家电/数码/手机</li>
+					<li>美妆/洗护/保健品</li>
+					<li>珠宝/眼镜/手表</li>
+					<li>运动/户外/乐器</li>
+					<li>游戏/动漫/影视</li>
+					<li>美食/生鲜/零食</li>
+					<li>鲜花/宠物/农资</li>
+					<li>房产/装修/建材</li>
+					<li>家具/家饰/家纺</li>
+					<li>汽车/二手车/用品</li>
+					<li>办公/DIY/五金电子</li>
+					<li>百货/餐厨/家庭保</li>
+					<li>学习/卡券/本地服</li>
+				</ul>
+			</div>
+			<div class="bt02">
+				<!--pic--><img src="image/h01.jpg">
+			</div>
+		</div>
+		<div class="section03">
+			<div class="lt">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    				<!-- 轮播（Carousel）指标 -->
+    				<ol class="carousel-indicators">
+        			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#myCarousel" data-slide-to="1"></li>
+			        <li data-target="#myCarousel" data-slide-to="2"></li>
+			        <li data-target="#myCarousel" data-slide-to="3"></li>
+			    	</ol>   
+    				<!-- 轮播（Carousel）项目 -->
+	    			<div class="carousel-inner">
+	        			<div class="item active">
+	            			<img src="image/pic01.jpg" alt="First slide">
+		        		</div>
+				        <div class="item">
+				            <img src="image/pic02.jpg" alt="Second slide">
+				        </div>
+				        <div class="item">
+				            <img src="image/pic03.jpg" alt="Third slide">
+				        </div>
+				        <div class="item">
+				            <img src="image/pic04.jpg" alt="Third slide">
+				        </div>
+			    	</div>
+		    		<!-- 轮播（Carousel）导航 -->
+				    <a class="carousel-control left" href="#myCarousel" 
+				        data-slide="prev">&lsaquo;
+				    </a>
+				    <a class="carousel-control right" href="#myCarousel" 
+				        data-slide="next">&rsaquo;
+				    </a>
+				</div>
+				<div class="lt1">
+				<img src="image/pic06.jpg">
+				</div>
+				<div class="lb">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+    				<!-- 轮播（Carousel）指标 -->
+    				<ol class="carousel-indicators">
+        			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#myCarousel" data-slide-to="1"></li>
+			        <li data-target="#myCarousel" data-slide-to="2"></li>
+			        <li data-target="#myCarousel" data-slide-to="3"></li>
+			        <li data-target="#myCarousel" data-slide-to="4"></li>
+			        <li data-target="#myCarousel" data-slide-to="5"></li>
+			    	</ol>   
+    				<!-- 轮播（Carousel）项目 -->
+		    			<div class="carousel-inner">
+		        			<div class="item active">
+		            			<img src="image/pic07.png" alt="First slide">
+			        		</div>
+					        <div class="item">
+					            <img src="image/pic08.png" alt="Second slide">
+					        </div>
+					        <div class="item">
+					            <img src="image/pic09.png" alt="Third slide">
+					        </div>
+					        <div class="item">
+					            <img src="image/pic10.png" alt="Third slide">
+					        </div>
+					        <div class="item">
+					            <img src="image/pic11.png" alt="Third slide">
+					        </div>
+					        <div class="item">
+					            <img src="image/pic12.png" alt="Third slide">
+					        </div>
+				    	</div>
+			    		<!-- 轮播（Carousel）导航 -->
+					    <a class="carousel-control left" href="#myCarousel" 
+					        data-slide="prev">&lsaquo;
+					    </a>
+					    <a class="carousel-control right" href="#myCarousel" 
+					        data-slide="next">&rsaquo;
+					    </a>
+					</div>
+				</div>
+				<div class="lb1">
+					<span>今日热卖</span>
+					<img src="image/pic13.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="section04">
+			<div class="rightb1">
+				<div class="se04p">
+					
+				</div>
+				<div class="se04t1">
+					<span>Hi,Sagitario!</span>
+					<p><span>领淘金币抵钱</span> 或去 <span>会员俱乐部</span></p>
+				</div>
+				<div class="se04t2">
+					<button>登陆</button>
+					<button>注册</button>
+					<button>开店</button>
+				</div>
+			</div>
+			<div class="rightb2">
+				
+				<ul id="myTab" class="nav nav-tabs">
+					<li><a href="#home" data-toggle="tab">公益</a></li>
+					<li><a href="#ios" data-toggle="tab">安全</a></li>
+					<li><a href="#ios" data-toggle="tab">论坛</a></li>
+					<li><a href="#ios" data-toggle="tab">规则</a></li>
+					<li class="active"><a href="#ios" data-toggle="tab">公告</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade in active" id="home">
+						<p>W3Cschoool</p>
+					</div>
+					<div class="tab-pane fade" id="ios">
+						<p>qqq</p>
+					</div>
+					<div class="tab-pane fade" id="jmeter">
+						<p>qqq</p>
+					</div>
+					<div class="tab-pane fade" id="ejb">
+						<p>qqq</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="section05">
+			<div class="se05">
+				
+			</div>
+		</div>
+		<div class="section06">
+			<div class="mcg">
+				<span class="sp1">我常逛的</span><span class="sp2">更多</span>
+			</div>
+			<div class="gal">
+				<div class="gal01 gl">
+					<div class="gl1">
+						<div class="lft01">
+							<div class="lfbox011">
+								<span>爱逛街</span>
+							</div>
+							<div class="lfbox012">
+								<span>热门TOP</span>
+							</div>
+						</div>
+						<div class="lft02">
+							<div class="lfbox021">
+								<div class="lfb021a">
+									<div class="lf021a1">
+										<span>秋季新款</span>
+									</div>
+									<div class="lf021a2">
+										<span>唯美女鞋</span>
+									</div>
+								</div>
+								<div class="lfb021b">
+									<span>蕾丝连衣裙</span>
+								</div>
+							</div>	
+							<div class="lfbox022">
+								<span>温馨家</span>
+							</div>	
+						</div>
+						<div class="lft03">
+							<div class="lfbox031">
+								<span>爱逛街搭配</span>
+							</div>
+							<div class="lfbox032">
+								<span>包包</span>
+							</div>
+							<div class="lfbox033">
+								<span>创意家居</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="gal02 gl">
+					<div class="gl1">
+						<div class="lft01">
+							<div class="lfbox011">
+								<span>腔调</span>
+							</div>
+							<div class="lfbox012">
+								<span>热门TOP</span>
+							</div>
+						</div>
+						<div class="lft02">
+							<div class="lfbox021">
+								<div class="lfb021a">
+									<div class="lf021a1">
+										<span>潮人挚爱</span>
+									</div>
+									<div class="lf021a2">
+										<span>时尚尖货</span>
+									</div>
+								</div>
+								<div class="lfb021b">
+									<span>女神私藏好店</span>
+								</div>
+							</div>	
+							<div class="lfbox022">
+								<span>活动</span>
+							</div>	
+						</div>
+						<div class="lft03">
+							<div class="lfbox031">
+								<span>淘宝女装腔调馆</span>
+							</div>
+							<div class="lfbox032">
+								<span>扮靓装扮</span>
+							</div>
+							<div class="lfbox033">
+								<span>学我穿搭</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="gal03 gl">
+					<div class="gl1">
+						<div class="lft01">
+							<div class="lfbox011">
+								<span>美妆秀</span>
+							</div>
+							<div class="lfbox012">
+								<span>热门TOP</span>
+							</div>
+						</div>
+						<div class="lft02">
+							<div class="lfbox021">
+								<div class="lfb021a">
+									<div class="lf021a1">
+										<span>缤纷甲油</span>
+									</div>
+									<div class="lf021a2">
+										<span>心动唇膏</span>
+									</div>
+								</div>
+								<div class="lfb021b">
+									<span>美颜好物</span>
+								</div>
+							</div>	
+							<div class="lfbox022">
+								<span>红人推荐</span>
+							</div>	
+						</div>
+						<div class="lft03">
+							<div class="lfbox031">
+								<span>夏日美妆潮流</span>
+							</div>
+							<div class="lfbox032">
+								<span>全球好货</span>
+							</div>
+							<div class="lfbox033">
+								<span>洗发护发</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="gal04 gl">
+					<div class="gl1">
+						<div class="lft01">
+							<div class="lfbox011">
+								<span>中国制造</span>
+							</div>
+							<div class="lfbox012">
+								<span>热门TOP</span>
+							</div>
+						</div>
+						<div class="lft02">
+							<div class="lfbox021">
+								<div class="lfb021a">
+									<div class="lf021a1">
+										<span>品质优选</span>
+									</div>
+									<div class="lf021a2">
+										<span>大厂直供</span>
+									</div>
+								</div>
+								<div class="lfb021b">
+									<span>一字带凉鞋</span>
+								</div>
+							</div>	
+							<div class="lfbox022">
+								<span>质主题</span>
+							</div>	
+						</div>
+						<div class="lft03">
+							<div class="lfbox031">
+								<span>优选品质国货</span>
+							</div>
+							<div class="lfbox032">
+								<span>国货精品</span>
+							</div>
+							<div class="lfbox033">
+								<span>猜你喜欢</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section07">
+			<div>
+				tbtt
+			</div>
+		</div>	
+		<div class="section08">
+			<div>
+				<img src="image/pic14.jpg">
+			</div>
+		</div>
+		<div class="section09">
+			<div class="mcg">
+				<span class="sp1">时尚爆料王</span><span class="sp2">更多</span>
+			</div>
+			<div class="gal">
+				<div class="gal01 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>iFashion</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<span>软萌针织衫</span>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>包治百病</span>
+								</div>
+								<div class="glbox02b2">
+									<span>女神战靴</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gal02 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>全球购</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<div class="glbox02a1">
+									<span>限量口红</span>
+								</div>
+								<div class="glbox02a2">
+									<span>包治百病</span>
+								</div>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>精致项链</span>
+								</div>
+								<div class="glbox02b2">
+									<span>野田珐琅彩</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gal03 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>美妆秀</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<span>唇膏精选</span>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>最潮撩汉妆</span>
+								</div>
+								<div class="glbox02b2">
+									<span>美发良品</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gal04 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>爱逛街</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<div class="glbox02a1">
+									<span>衬衫+短袖</span>
+								</div>
+								<div class="glbox02a2">
+									<span>白搭小黑鞋</span>
+								</div>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>丸子头这么扎</span>
+								</div>
+								<div class="glbox02b2">
+									<span>暖暖的地毯</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section10">
+			<div class="mcg">
+				<span class="sp1">品质生活家</span><span class="sp2">更多</span>
+			</div>
+			<div class="gal">
+				<div class="gal01 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>淘宝汇吃</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<span>正宗牛肉丸</span>
+							</div>
+							<div class="glbox02b">
+								<span>鲜甜石榴</span>
+							</div>
+						</div>
+						<div class="glbox03">
+							<span>应季鲜果</span><span>精致糕点</span>
+						</div>
+					</div>
+				</div>
+				<div class="gal02 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>极有家</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<div class="glbox02a1">
+									<span>动漫宅男之家</span>
+								</div>
+								<div class="glbox02a2">
+									<span>惬意午后</span>
+								</div>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>秋季煲汤养生</span>
+								</div>
+								<div class="glbox02b2">
+									<span>浪漫温柔乡</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gal03 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>格调</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<span>潮牌 手表</span>
+							</div>
+							<div class="glbox02b">
+								<span>热门女鞋</span>
+							</div>
+						</div>
+						<div class="glbox03">
+							<span>春天的包包</span><span>Chloe墨镜</span>
+						</div>
+					</div>
+				</div>
+				<div class="gal04 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>中国制造</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<div class="glbox02a1">
+									<span>纯色蕾丝窗纱</span>
+								</div>
+								<div class="glbox02a2">
+									<span>可伸缩的餐桌</span>
+								</div>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>高端原创T恤</span>
+								</div>
+								<div class="glbox02b2">
+									<span>时尚可爱泳衣</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gal05 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>亲宝贝</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<div class="glbox02a1">
+									<span>摩登童年</span>
+								</div>
+								<div class="glbox02a2">
+									<span>百变童鞋</span>
+								</div>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>玩具百宝箱</span>
+								</div>
+								<div class="glbox02b2">
+									<span>全球母婴嗨购</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gal06 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>淘宝房产</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<span>品牌好房</span>
+							</div>
+							<div class="glbox02b">
+								<span>最新开盘</span>
+							</div>
+						</div>
+						<div class="glbox03">
+							<span>万科品牌馆</span><span>绿城品牌馆</span>
+						</div>
+					</div>
+				</div>
+				<div class="gal07 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>阿里汽车</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<span>整车特卖</span>
+							</div>
+							<div class="glbox02b">
+								<span>淘宝车品</span>
+							</div>
+						</div>
+						<div class="glbox03">
+							<span>二手车捡漏</span><span>特价好车</span>
+						</div>
+					</div>
+				</div>
+				<div class="gal08 gl">
+					<div class="gll">
+						<div class="glbox01">
+							<span>酷动城</span>
+						</div>
+						<div class="glbox02">
+							<div class="glbox02a">
+								<div class="glbox02a1">
+									<span>足球鞋限时抢</span>
+								</div>
+								<div class="glbox02a2">
+									<span>运动潮穿必搭</span>
+								</div>
+							</div>
+							<div class="glbox02b">
+								<div class="glbox02b1">
+									<span>专业健身装备</span>
+								</div>
+								<div class="glbox02b2">
+									<span>全球跑鞋必穿</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="section11">
+			<div class="asd">
+				
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+</body>
+</html>
