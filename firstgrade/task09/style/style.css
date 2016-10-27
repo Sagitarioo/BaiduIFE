@@ -32,8 +32,8 @@ header .navt .sp span{
 body{
 	background-color: #F1F1F1;
 }
-.container-fluid{
-	width: 1280px;
+.container{
+	width: 1300px;
 }
 .section01{
 	background-color: #fff;
@@ -91,13 +91,12 @@ body{
 }
 .section01 .rt01{
 	float: right;
-	margin-top: 60px;
-	margin-right: 100px;
+	margin-top: 40px;
+	margin-right: 40px;
 }
 .section01 .se01b{
 	float: left;
-	margin-top: 10px;
-	margin-left: -60px;
+	margin-left: 210px;
 	font-family: "SimHei";
 	font-size: 16px;
 }
